@@ -3,5 +3,6 @@
 cp undervolt.py /usr/bin/undervolt
 cp config.json /etc/undervolt.json
 cp undervolt.service /etc/systemd/system/
+cp undervolt-msr.conf /etc/modules-load.d/
 systemctl enable undervolt
 systemctl restart undervolt
